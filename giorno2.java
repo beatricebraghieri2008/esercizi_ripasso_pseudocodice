@@ -1,4 +1,4 @@
-//dati tre numeri, trovare il più grande
+//DATI TRE NUMERI, TROVARE IL PIU GRANDE
 
 let n_max = -Infinity;
 
@@ -11,7 +11,7 @@ for (let i = 0; i < 3; i++) {
 
 console.log("Il numero più grande è: " + n_max);
 
-//verificare se un anno è bisestile
+//VERIFICARE SE UN ANNO E' BISESTILE
 
 import java.util.Scanner;
 
@@ -23,11 +23,11 @@ System.out.print("Inserisci un anno: ");
 int anno = input.nextInt();
 
 if (anno % 400 == 0) {
-System.out.println("Anno bisestile");
+  System.out.println("Anno bisestile");
 } else if (anno % 100 == 0) {
-System.out.println("Anno non bisestile");
+  System.out.println("Anno non bisestile");
 } else if (anno % 4 == 0) {
-System.out.println("Anno bisestile");
+  System.out.println("Anno bisestile");
 } else {
 System.out.println("Anno non bisestile");
 }
@@ -37,7 +37,7 @@ input.close();
 }
 
 
-//menu testuale
+//MENU TESTUALE
 import java.time.LocalDate;
 import java.util.Scanner;
 

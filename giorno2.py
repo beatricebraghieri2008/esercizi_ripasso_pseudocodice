@@ -1,4 +1,4 @@
-#dati tre numeri, trovare il più grande
+#DATI TRE NUMERI, TROVARE IL PIU GRANDE
 n_max = float('-inf')
 
 for i in range(3): 
@@ -8,7 +8,7 @@ for i in range(3):
 
 print("Il numero più grande è:", n_max)
 
-#verificare se un anno è bisestile
+#VERIFICARE SE UN ANNO E' BISESTILE
 anno = int(input("Inserisci un anno: "))
 
 if anno % 400 == 0:
@@ -21,7 +21,7 @@ else:
     print("anno non bisestile")
 
 
-#menu testuale
+#MENU TESTUALE 
  
 import datetime
 

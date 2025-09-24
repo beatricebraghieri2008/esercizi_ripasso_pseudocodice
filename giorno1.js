@@ -1,11 +1,11 @@
-//area rettangolo
+//AREA RETTANGOLO
 let base=prompt("inserisci la base: ")
 let altezza=prompt("inserisci l'altezza: ")
 let area=(base*altezza)/2
 console.log("l'area del rettangolo è:" + area)
 
 
-//scambio valori di due variabili
+//SCAMBIO VALORI DI DUE VARIABILI
 let x = parseInt(prompt("Inserisci x:"));
 let y = parseInt(prompt("Inserisci y:"));
 
@@ -16,7 +16,7 @@ y = z;
 console.log("Dopo lo scambio: x = " + x + ", y = " + y);
 
 
-//conversione celsius fahrenheit
+//CONVERSIONE CELSIUS FAHRENHEIT  
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,

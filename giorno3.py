@@ -1,4 +1,4 @@
-#fattoriale
+#FATTORIALE
 n = int(input("Inserisci un numero intero positivo: "))
 
 fattoriale = 1
@@ -8,7 +8,7 @@ for i in range(1, n + 1):
 print(f"Il fattoriale di {n} è: {fattoriale}")
 
 
-#somma primi n numeri pari
+#SOMMA PRIMI N NUMERI PARI
 
 n = int(input("Inserisci un numero: "))
 

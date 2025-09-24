@@ -1,4 +1,4 @@
-//fattoriale
+//FATTORIALE
 import java.util.Scanner;
 
 public class Fattoriale {
@@ -18,7 +18,7 @@ input.close();
 }
 
 
-//somma primi n numeri pari
+//SOMMA PRIMI N NUMERI PARI
 
 import java.util.Scanner;
 
